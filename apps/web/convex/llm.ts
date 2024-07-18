@@ -73,7 +73,7 @@ const initializeModel = async (character: any, userId: string, ctx: any) => {
     apiKey,
     defaultHeaders: {
       "HTTP-Referer": "https://openroleplay.ai",
-      "X-Title": "Openroleplay.ai",
+      "X-Title": "ThetaSpaces1",
     },
   });
   let updatedModel = model;
@@ -430,7 +430,7 @@ export const generateFollowups = internalAction({
         apiKey,
         defaultHeaders: {
           "HTTP-Referer": "https://openroleplay.ai",
-          "X-Title": "Openroleplay.ai",
+          "X-Title": "ThetaSpaces1",
         },
       });
       try {

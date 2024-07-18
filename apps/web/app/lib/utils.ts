@@ -81,8 +81,8 @@ export const FadeInOut = {
 };
 
 export function constructMetadata({
-  title = "Openroleplay.ai: AI characters for everyone.",
-  description = "Openroleplay.ai is an AI characters and roleplaying platform for everyone.",
+  title = "ThetaSpaces1: AI characters for everyone.",
+  description = "ThetaSpaces is an AI characters and roleplaying platform for everyone.",
   image = "/og.jpg",
   icon = "/favicon.ico",
   noIndex = false,
