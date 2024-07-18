@@ -37,7 +37,7 @@ const CrystalDialog: React.FC = () => {
           </DialogOrDrawerHeader>
           <div className="flex flex-col gap-4">
             <DialogOrDrawerDescription>
-              We regret to inform you that openroleplay.ai will be sunsetting on
+              We regret to inform you that ThetaSpaces2 will be sunsetting on
               August 1st. You can request refunds for existing crystals
               purchased by visiting our Discord, and we're disabling the
               purchase of new crystals.
