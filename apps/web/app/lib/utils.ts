@@ -128,25 +128,25 @@ export function constructMetadata({
           rel: "apple-touch-startup-image",
         },
         {
-          url: "/pwa/iphoneplus_splash.png",
+          url: "/pwa/plus_splash.png",
           media:
             "(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)",
           rel: "apple-touch-startup-image",
         },
         {
-          url: "/pwa/iphonex_splash.png",
+          url: "/pwa/x_splash.png",
           media:
             "(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)",
           rel: "apple-touch-startup-image",
         },
         {
-          url: "/pwa/iphonexr_splash.png",
+          url: "/pwa/xr_splash.png",
           media:
             "(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)",
           rel: "apple-touch-startup-image",
         },
         {
-          url: "/pwa/iphonexsmax_splash.png",
+          url: "/pwa/xsmax_splash.png",
           media:
             "(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)",
           rel: "apple-touch-startup-image",
