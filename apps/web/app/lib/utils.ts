@@ -110,7 +110,7 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: "@daun_ai",
+      creator: "@Swaraj___Singh",
     },
     icons: {
       icon: icon,
