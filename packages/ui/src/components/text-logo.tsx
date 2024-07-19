@@ -7,12 +7,19 @@ export default function TextLogo({
 }) {
   return (
     <span
-      className={`flex items-center font-medium ${className} hover:opacity-50`}
+      className={`flex items-center ${className} hover:opacity-50`}
     >
-      <span className="lg:hidden">{`ORP${isPlus ? "+" : ""}`}</span>
-      <span className="hidden lg:inline">{`OpenRoleplay${
-        isPlus ? "+" : ""
-      }`}</span>
+      <img
+        src="/LogoSVG-32x32.svg"
+        alt="Theta Space Logo"
+        className="h-8 w-8 sm:hidden"
+      />
+      <img
+        src="/LogoSVG-250x50.svg"
+        alt="Theta Space Logo"
+        className="hidden h-8 w-auto sm:block"
+      />
+      {isPlus && <span className="ml-1 font-medium">+</span>}
     </span>
   );
 }
