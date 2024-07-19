@@ -69,7 +69,7 @@ const CheckinDialog = () => {
                 </div>
                 <div className="flex text-center">
                   {t(
-                    "Crystal is an universal currency for calling AI features in ThetaSpaces2.",
+                    "Crystal is an universal currency for calling AI features in ThetaSpace.",
                   )}
                 </div>
               </AlertDialogDescription>

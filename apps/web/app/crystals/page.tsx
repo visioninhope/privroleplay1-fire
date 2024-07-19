@@ -380,11 +380,11 @@ export default function Page() {
           {t("Crystal Top-Up")}
           <InfoTooltip
             content={t(
-              "Crystal is an universal currency for calling AI features in ThetaSpaces2.",
+              "Crystal is an universal currency for calling AI features in ThetaSpace.",
             )}
           />
         </h2>
-        We regret to inform you that ThetaSpaces2 will be sunsetting on
+        We regret to inform you that ThetaSpace will be sunsetting on
         August 1st. Unfortunately, it has become challenging for us to maintain
         the high standards of user experience, security, and content that our
         community deserves.

@@ -46,7 +46,7 @@ export default function NavBar({}: {}) {
                 )}
               </>
             ) : (
-              <Tooltip content="Star ThetaSpaces2 on GitHub" desktopOnly>
+              <Tooltip content="Star ThetaSpace on GitHub" desktopOnly>
                 <Link
                   className="hidden items-center gap-2 text-base text-muted-foreground hover:opacity-50 lg:flex"
                   href="/github"

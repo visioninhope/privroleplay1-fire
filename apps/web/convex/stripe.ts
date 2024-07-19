@@ -52,7 +52,7 @@ export const pay = action({
               product_data: {
                 name: `${numCrystals} Crystals`,
                 description:
-                  "Crystal is an universal currency for calling AI features inThetaSpaces2",
+                  "Crystal is an universal currency for calling AI features inThetaSpace",
               },
             },
             quantity: 1,
