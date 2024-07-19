@@ -18,9 +18,9 @@
 </p>
 
 <p align="center">
-   <a href="https://github.com/codico-bit/privroleplay1/stargazers"><img src="https://img.shields.io/github/stars/open-roleplay-ai/openroleplay.ai" alt="Github Stars"></a>
+   <a href="https://github.com/codico-bit/privroleplay1/stargazers"><img src="https://img.shields.io/github/stars/codico-bit/privroleplay1" alt="Github Stars"></a>
    <a href="https://github.com/codico-bit/privroleplay1/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-AGPLv3-purple" alt="License"></a>
-   <a href="https://github.com/codico-bit/privroleplay1/pulse"><img src="https://img.shields.io/github/commit-activity/m/open-roleplay-ai/openroleplay.ai" alt="Commits-per-month"></a>
+   <a href="https://github.com/codico-bit/privroleplay1/pulse"><img src="https://img.shields.io/github/commit-activity/m/codico-bit/privroleplay1" alt="Commits-per-month"></a>
    <a href="https://openroleplay.ai/pricing"><img src="https://img.shields.io/badge/Pricing-Free-brightgreen" alt="Pricing"></a>
    <a href="https://github.com/codico-bit/privroleplay1/issues?q=is:issue+is:open+label:%22%F0%9F%99%8B%F0%9F%8F%BB%E2%80%8D%E2%99%82%EF%B8%8Fhelp+wanted%22"><img src="https://img.shields.io/badge/Help%20Wanted-Contribute-blue"></a>
 </p>
