@@ -11,7 +11,7 @@
     <br />
     <a href="https://discord.gg/bM5zzMEtdW">Discord</a>
     ·
-    <a href="https://openroleplay.ai">Website</a>
+    <a href="https://www.thetaspace.fun">Website</a>
     ·
     <a href="https://github.com/codico-bit/privroleplay1/issues">Issues</a>
   </p>
@@ -21,7 +21,7 @@
    <a href="https://github.com/codico-bit/privroleplay1/stargazers"><img src="https://img.shields.io/github/stars/codico-bit/privroleplay1" alt="Github Stars"></a>
    <a href="https://github.com/codico-bit/privroleplay1/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-AGPLv3-purple" alt="License"></a>
    <a href="https://github.com/codico-bit/privroleplay1/pulse"><img src="https://img.shields.io/github/commit-activity/m/codico-bit/privroleplay1" alt="Commits-per-month"></a>
-   <a href="https://openroleplay.ai/pricing"><img src="https://img.shields.io/badge/Pricing-Free-brightgreen" alt="Pricing"></a>
+   <a href="https://www.thetaspace.fun/pricing"><img src="https://img.shields.io/badge/Pricing-Free-brightgreen" alt="Pricing"></a>
    <a href="https://github.com/codico-bit/privroleplay1/issues?q=is:issue+is:open+label:%22%F0%9F%99%8B%F0%9F%8F%BB%E2%80%8D%E2%99%82%EF%B8%8Fhelp+wanted%22"><img src="https://img.shields.io/badge/Help%20Wanted-Contribute-blue"></a>
 </p>
 
@@ -43,7 +43,7 @@ You have full control over your data, model, and characters.
 
 ## Supported Models
 
-Check out [here](https://openroleplay.ai/models) for supported models.
+Check out [here](https://www.thetaspace.fun/models) for supported models.
 
 ### Built With
 

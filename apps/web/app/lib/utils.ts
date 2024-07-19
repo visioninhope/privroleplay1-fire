@@ -177,7 +177,7 @@ export function constructMetadata({
         },
       ],
     },
-    metadataBase: new URL("https://openroleplay.ai"),
+    metadataBase: new URL("https://www.thetaspace.fun"),
     ...(noIndex && {
       robots: {
         index: false,

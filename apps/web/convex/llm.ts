@@ -72,7 +72,7 @@ const initializeModel = async (character: any, userId: string, ctx: any) => {
     baseURL,
     apiKey,
     defaultHeaders: {
-      "HTTP-Referer": "https://openroleplay.ai",
+      "HTTP-Referer": "https://www.thetaspace.fun",
       "X-Title": "ThetaSpaces1",
     },
   });
@@ -429,7 +429,7 @@ export const generateFollowups = internalAction({
         baseURL,
         apiKey,
         defaultHeaders: {
-          "HTTP-Referer": "https://openroleplay.ai",
+          "HTTP-Referer": "https://www.thetaspace.fun",
           "X-Title": "ThetaSpaces1",
         },
       });
@@ -829,7 +829,7 @@ export const generateImageTags = internalAction({
             isNSFW: functionArgs?.isNSFW,
             isPrivate: functionArgs?.isBlacklisted || functionArgs?.isNSFW,
             imageUrl: functionArgs?.isBlacklisted
-              ? "https://openroleplay.ai/image-failed.jpg"
+              ? "https://www.thetaspace.fun/image-failed.jpg"
               : "",
           });
           if (functionArgs?.isBlacklisted) {
