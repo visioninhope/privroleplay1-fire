@@ -57,7 +57,7 @@ const SignInDialog = ({
             </AlertDialogDescription>
           </div>
           <div className="flex flex-col items-center gap-4">
-            <Link href="https://accounts.openroleplay.ai/sign-up">
+            <Link href="https://accounts.thetaspace.fun/sign-up">
               <AlertDialogAction>{t("Sign up")}</AlertDialogAction>
             </Link>
             <Link

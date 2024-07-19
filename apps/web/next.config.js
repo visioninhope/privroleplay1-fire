@@ -40,7 +40,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "r2.openroleplay.ai",
+        hostname: "r2.thetaspace.fun",
         port: "",
         pathname: "/**",
       },
@@ -76,7 +76,7 @@ const nextConfig = {
       },
       {
         source: "/docs",
-        destination: "https://docs.openroleplay.ai",
+        destination: "https://docs.thetaspace.fun",
         permanent: true,
       },
       {
