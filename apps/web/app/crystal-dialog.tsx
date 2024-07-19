@@ -36,12 +36,6 @@ const CrystalDialog: React.FC = () => {
             <h2>{t("Not enough crystals")}</h2>
           </DialogOrDrawerHeader>
           <div className="flex flex-col gap-4">
-            <DialogOrDrawerDescription>
-              We regret to inform you that ThetaSpaces2 will be sunsetting on
-              August 1st. You can request refunds for existing crystals
-              purchased by visiting our Discord, and we're disabling the
-              purchase of new crystals.
-            </DialogOrDrawerDescription>
             <div className="flex items-center justify-center gap-2 sm:flex-row">
               {packages.slice(0, 2).map((pkg) => (
                 <MobilePackageWrapper

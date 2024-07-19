@@ -384,21 +384,6 @@ export default function Page() {
             )}
           />
         </h2>
-        We regret to inform you that ThetaSpace will be sunsetting on
-        August 1st. Unfortunately, it has become challenging for us to maintain
-        the high standards of user experience, security, and content that our
-        community deserves.
-        <br />
-        <br /> As part of this transition: <br />
-        <br />
-        - The purchase of new products and subscriptions will be gradually
-        limited. <br />- The creation of new accounts will also be restricted
-        over time. <br />
-        We recommend refraining from making new purchases or creating new
-        accounts to avoid any inconvenience. <br />- The websites, accounts,
-        data and this discord channel will be permanently deleted and will be
-        inaccessible by August 1st. <br />
-        Thank you for your support and understanding.
       </div>
 
       <AnimatePresence>
