@@ -1,5 +1,5 @@
 {
-  "name": "openroleplay",
+  "name": "thetaspaces1",
   "private": true,
   "scripts": {
     "build": "turbo build",
