@@ -14,15 +14,15 @@ export default function TextLogo({
       <Image
         src="/LogoSVG-32x32.svg"
         alt="Theta Space Logo"
-        width={32}
-        height={32}
+        width={64}
+        height={64}
         className="h-8 w-8 sm:hidden"
       />
       <Image
         src="/LogoSVG-250x50.svg"
         alt="Theta Space Logo"
-        width={250}
-        height={50}
+        width={500}
+        height={100}
         className="hidden h-8 w-auto sm:block"
       />
       {isPlus && <span className="ml-1 font-medium">+</span>}
