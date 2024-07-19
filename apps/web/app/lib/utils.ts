@@ -81,7 +81,7 @@ export const FadeInOut = {
 };
 
 export function constructMetadata({
-  title = "ThetaSpaces1: AI characters for everyone.",
+  title = "Theta Space: AI characters for everyone.",
   description = "ThetaSpaces is an AI characters and roleplaying platform for everyone.",
   image = "/og.jpg",
   icon = "/favicon.ico",

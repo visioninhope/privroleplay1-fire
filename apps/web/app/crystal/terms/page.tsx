@@ -4,7 +4,7 @@ const TermsPage = () => {
   return (
     <div className="container mx-auto px-4">
       <h1 className="text-3xl font-bold mb-4">
-        ThetaSpaces1 - Crystal Terms and Conditions
+        Theta Space - Crystal Terms and Conditions
       </h1>
       <p>Last Updated: 12/29/2023</p>
       <h2 className="text-2xl font-bold mt-4 mb-2">
@@ -13,8 +13,8 @@ const TermsPage = () => {
       <p>
         These Crystal Terms and Conditions (“Crystal Terms”) govern your receipt
         and use of Crystal through the Service and are Additional Terms under
-        the ThetaSpaces1 Terms of Service (“Terms of Service”), which is a
-        legally binding contract between you and ThetaSpaces1 and
+        the Theta Space Terms of Service (“Terms of Service”), which is a
+        legally binding contract between you and Theta Space and
         incorporated into these Crystal Terms by this reference. Capitalized
         terms used but not defined in these Crystal Terms will have the meanings
         set forth elsewhere in the Terms of Service.
@@ -23,18 +23,18 @@ const TermsPage = () => {
       <p>
         “Crystal” is the official virtual credits of the Services. Users may
         acquire Crystal by (i) purchasing or otherwise receiving Crystal from
-        ThetaSpaces1; (ii) receiving tips and transfers from other Users on
+        Theta Space; (ii) receiving tips and transfers from other Users on
         the Service, and (iii) earning Crystal as reward from a contest, bounty,
         or other eligible activities with respect to the Service. Crystal may be
         used on the Service in several ways: (i) tipping creators to show
         appreciation for their work; (ii) posting bounties and offering Crystal
         as a reward; (iii) using Crystal to train models with the
-        ThetaSpaces1’s Trainer; (iv) accessing advanced plugins for AI
-        models; and (v) by other means that ThetaSpaces1 may introduce.
+        Theta Space’s Trainer; (iv) accessing advanced plugins for AI
+        models; and (v) by other means that Theta Space may introduce.
         Crystal is not a substitute for fiat currency, Crystal does not earn
         interest, and has no equivalent value in fiat currency. Except as
         otherwise outlined in these Crystal Terms, Crystal cannot be redeemed
-        for any fiat currency, and ThetaSpaces1 is not obligated to exchange
+        for any fiat currency, and Theta Space is not obligated to exchange
         a User’s Crystal for anything else of value.
       </p>
       <h2 className="text-2xl font-bold mt-4 mb-2">License to Crystal.</h2>
@@ -47,13 +47,13 @@ const TermsPage = () => {
         (ii) your Account is suspended or terminated; or (iii) with 30 days’
         notice if these Crystal Terms or the Services is terminated, without
         payment, or liability to you. Except for the limited licenses granted to
-        you under the Crystal Terms, ThetaSpaces1 retains all rights in and
-        to Crystal. ThetaSpaces1 makes no guarantees or warranties regarding
+        you under the Crystal Terms, Theta Space retains all rights in and
+        to Crystal. Theta Space makes no guarantees or warranties regarding
         Crystal or their availability or value.
       </p>
       <h2 className="text-2xl font-bold mt-4 mb-2">Promotional Offers.</h2>
       <p>
-        ThetaSpaces1 reserves the right to determine pricing for Crystal and
+        Theta Space reserves the right to determine pricing for Crystal and
         may, at its sole discretion, make promotional offers with different
         features and different pricing to any Users. These promotional offers,
         unless made to you, will not apply to your purchase or use of Crystal.
@@ -61,19 +61,19 @@ const TermsPage = () => {
       <h2 className="text-2xl font-bold mt-4 mb-2">Prohibited Conduct.</h2>
       <p>
         You may not use, acquire, or distribute Crystal except through the
-        Services and except as expressly allowed by ThetaSpaces1. Any attempt
+        Services and except as expressly allowed by Theta Space. Any attempt
         to do so constitutes a violation of the Terms of Service, will render
         the transaction void, and may result in the immediate suspension or
         termination of your Account and your license to use Crystal or the
-        Service. ThetaSpaces1 does not recognize or take responsibility for
+        Service. Theta Space does not recognize or take responsibility for
         third-party services that allow Users to sell, transfer, purchase, or
         otherwise use Crystal, and any such use by a User is a violation of the
         Terms of Service. Only Users who have reached the age of majority in
         their jurisdiction or state of residence may purchase Crystal or engage
         in other real-money transactions on the Services. Except as required by
         law, all payments for Crystal are final and not refundable.
-        ThetaSpaces1 may implement changes to Crystal and these Crystal Terms
-        at any time at ThetaSpaces1’s sole discretion; this may include
+        Theta Space may implement changes to Crystal and these Crystal Terms
+        at any time at Theta Space’s sole discretion; this may include
         limiting the number of Crystal a User may acquire or lowering the
         purchase price of Crystal.
       </p>
@@ -84,48 +84,48 @@ const TermsPage = () => {
         your Crystal balance in the top left of the menu header. The My Crystal
         Dashboard page shows Recent Transactions, your Lifetime Crystal amount,
         and will list ways to earn (and use) your Crystal. Crystal may, in
-        ThetaSpaces1’s sole discretion be exchanged for fiat (“Cash Out”).
+        Theta Space’s sole discretion be exchanged for fiat (“Cash Out”).
         Such Cash Out may require a minimum Crystal amount for conversion to
-        fiat currency. ThetaSpaces1 reserves the right to determine the
+        fiat currency. Theta Space reserves the right to determine the
         currency in which Crystal is exchanged. You are responsible for all
         transaction fees in connection with Cash Out transactions, if any, and
         these fees will vary depending on the payment method you choose.
-        Furthermore, ThetaSpaces1, in its sole discretion, will determine
+        Furthermore, Theta Space, in its sole discretion, will determine
         whether you are eligible to Cash Out by reviewing information on your
         Account, requirements under applicable law, and your compliance with the
         Terms of Service and these Crystal Terms.
       </p>
       <h2 className="text-2xl font-bold mt-4 mb-2">Eligibility to Cash Out.</h2>
       <p>
-        ThetaSpaces1 may, at its discretion, place restrictions on your
+        Theta Space may, at its discretion, place restrictions on your
         ability to Cash Out, reject any request you make to Cash Out, and
         determine how much you are eligible to Cash Out. For example,
-        ThetaSpaces1 generally limits a User’s ability to Cash Out $1,000 or
+        Theta Space generally limits a User’s ability to Cash Out $1,000 or
         more per day and may deny your request to Cash Out more than that
         amount. Any User requesting to Cash Out $1,000 or more worth of Crystal
-        in any given day will need to provide information to ThetaSpaces1 in
-        order for ThetaSpaces1 to conduct certain checks and verifications on
-        the User. This information may include, at ThetaSpaces1’s discretion,
+        in any given day will need to provide information to Theta Space in
+        order for Theta Space to conduct certain checks and verifications on
+        the User. This information may include, at Theta Space’s discretion,
         your bank name and account, the address of your primary residence, your
         full legal name, a government-issued identification number, tax
         information (an IRS form W-9 for U.S. taxpayers and an IRS form W-8 for
         non-U.S. taxpayers), and copies or images of related documents
-        (“Verification Documentation”). ThetaSpaces1 reserves the right to
+        (“Verification Documentation”). Theta Space reserves the right to
         decline or cancel any Cash Out for any reason, including in the event
         that the Verification Documentation appears to be inaccurate, cannot be
         verified, does not uniquely identify you, or that a Cash Out request
-        would be, as determined by ThetaSpaces1 at its discretion,
-        inappropriate. For example, ThetaSpaces1 may deny Cash Out requests
+        would be, as determined by Theta Space at its discretion,
+        inappropriate. For example, Theta Space may deny Cash Out requests
         that involve suspected money laundering or suspicious or fraudulent
         account activity or payments of $1,000 or more in any given day. Certain
         age restrictions may also apply to the availability of Cash Out
         opportunities, depending on local laws and the policies of
-        ThetaSpaces1’s third-party vendors. Even if you request to Cash Out,
-        you will only receive ThetaSpaces1’s selected currency in exchange
-        for Crystal held in your Account if ThetaSpaces1 determines, at its
-        discretion, that you are eligible to Cash Out. ThetaSpaces1 also
+        Theta Space’s third-party vendors. Even if you request to Cash Out,
+        you will only receive Theta Space’s selected currency in exchange
+        for Crystal held in your Account if Theta Space determines, at its
+        discretion, that you are eligible to Cash Out. Theta Space also
         reserves the right to deny Cash Out payments to any User that
-        ThetaSpaces1 determines, at its discretion, has violated these
+        Theta Space determines, at its discretion, has violated these
         Crystal Terms or the Terms of Service in any way.
       </p>
       <h2 className="text-2xl font-bold mt-4 mb-2">
@@ -133,19 +133,19 @@ const TermsPage = () => {
       </h2>
       <p>
         Notwithstanding any provision of these Crystal Terms to the contrary, if
-        your Account is deleted by you, ThetaSpaces1 may close your Account
-        and delete any Crystal balance. If ThetaSpaces1 terminates your
+        your Account is deleted by you, Theta Space may close your Account
+        and delete any Crystal balance. If Theta Space terminates your
         Account for inactivity or otherwise, your license to all Crystal
         associated with your Account will terminate immediately and all Crystal
         associated with your Account will expire, without compensation of any
         kind to you, subject to any limitations or obligations under applicable
-        law. ThetaSpaces1 reserves the right to modify, amend, or cancel
+        law. Theta Space reserves the right to modify, amend, or cancel
         these Crystal Terms, add, remove, or modify the eligibility
         requirements, and change the exchange rate for a Cash Out, in each case,
         at any time and for any reason. The existence of the Crystal Terms in no
         way creates an obligation for us to continue making Cash Outs available
         in the future, nor does it guarantee that a Cash Out payment can be made
-        in the future, subject to applicable law. ThetaSpaces1 reserves the
+        in the future, subject to applicable law. Theta Space reserves the
         right to review activity on any Account to assess the validity of your
         eligibility to Cash Out.
       </p>

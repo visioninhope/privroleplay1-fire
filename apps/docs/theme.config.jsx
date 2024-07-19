@@ -1,13 +1,13 @@
 export default {
-  logo: <span className="font-medium">📙 ThetaSpaces1 Docs</span>,
+  logo: <span className="font-medium">📙 Theta Space Docs</span>,
   docsRepositoryBase:
     "https://github.com/Open-Roleplay-AI/openroleplay.ai/tree/main/apps/docs",
   head: (
     <>
-      <meta property="og:title" content="ThetaSpaces1 Docs" />
+      <meta property="og:title" content="Theta Space Docs" />
       <meta
         property="og:description"
-        content="Learn how to create engaging characters at ThetaSpaces1"
+        content="Learn how to create engaging characters at Theta Space"
       />
     </>
   ),
@@ -16,7 +16,7 @@ export default {
       <span>
         {new Date().getFullYear()} ©{" "}
         <a href="https://nextra.site" target="_blank">
-          ThetaSpaces1
+          Theta Space
         </a>
         .
       </span>

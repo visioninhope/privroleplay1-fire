@@ -1,4 +1,4 @@
-# Contributing to ThetaSpaces1
+# Contributing to Theta Space
 
 Contributions are what makes the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 

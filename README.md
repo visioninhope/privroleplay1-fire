@@ -3,7 +3,7 @@
 <img src="https://github.com/Open-Roleplay-AI/.github/blob/main/github-banner.png?raw=true" alt="Logo">
 </a>
 
-  <h3 align="center">thetaspaces1</h3>
+  <h3 align="center">Theta Space</h3>
 
   <p align="center">
     The open-source character.ai alternative.
@@ -29,7 +29,7 @@
 
 # AI characters and roleplay for everyone
 
-Open Roleplay is an open-source alternative to Character.ai.
+Theta Space is an open-source alternative to Character.ai.
 You have full control over your data, model, and characters.
 
 ## Features
@@ -106,9 +106,9 @@ Let's shape our roadmap [together](https://github.com/codico-bit/privroleplay1/i
 
 ## License
 
-ThetaSpaces1 is open-source under the GNU Affero General Public License Version 3 (AGPLv3). You can find it [here](/LICENSE). The goal of the AGPLv3 license is to:
+Theta Space is open-source under the GNU Affero General Public License Version 3 (AGPLv3). You can find it [here](/LICENSE). The goal of the AGPLv3 license is to:
 
 - Maximize user freedom and to encourage users to contribute to open source.
 - Prevent corporations from taking the code and using it as part of their closed-source proprietary products
-- Prevent corporations from offering ThetaSpaces1 as a service without contributing to the open source project
+- Prevent corporations from offering Theta Space as a service without contributing to the open source project
 - Prevent corporations from confusing people and making them think that the service they sell is in any shape or form approved by the original team
