@@ -58,8 +58,8 @@ const PlusPlan = () => {
   // const unsubscribe = useMutation(api.payments.unsubscribe);
   // const uncancel = useMutation(api.payments.uncancel);
   const currentUser = useCurrentUser();
-  const subscription = useSubscription();
-  const { setClientSecret, openDialog } = usePaymentDialog();
+  // const subscription = useSubscription();
+  // const { setClientSecret, openDialog } = usePaymentDialog();
 
   async function handlePurchaseClick(event: any) {
     event.preventDefault();
@@ -94,9 +94,10 @@ const PlusPlan = () => {
         className="relative rounded-xl tabular-nums duration-200 hover:shadow-lg"
         role="button"
         onClick={
-          currentUser?.subscriptionTier === "plus" && !subscription?.cancelsAt
+          (e) => console.log("Placeholder to Handle purchase or subscription")
+          /*currentUser?.subscriptionTier === "plus" && !subscription?.cancelsAt
             ? undefined
-            : (e) => handlePurchaseClick(e)
+            : (e) => handlePurchaseClick(e)*/
         }
       >
         <Image
@@ -156,6 +157,13 @@ const PlusPlan = () => {
               </li>
             </ul>
             <p
+              className={`z-10 w-full rounded-full text-center font-semibold bg-blue-100 text-blue-900`}
+            >
+              {/* Adjusted to not depend on subscription state */}
+              Subscribe
+            </p>
+            {/*
+            <p
               className={`z-10 w-full rounded-full text-center font-semibold ${
                 subscription?.cancelsAt
                   ? `bg-yellow-100 text-yellow-900`
@@ -169,7 +177,8 @@ const PlusPlan = () => {
                 : currentUser?.subscriptionTier === "plus"
                   ? "Active"
                   : t("Subscribe")}{" "}
-            </p>
+            </p> */}
+            {/*
             {currentUser?.subscriptionTier === "plus" && (
               <CardDescription
                 className="z-10 text-xs duration-200 hover:opacity-50"
@@ -193,7 +202,7 @@ const PlusPlan = () => {
                     ).toLocaleDateString()}`
                   : t("Cancel subscription")}
               </CardDescription>
-            )}
+            )} */}
           </CardFooter>
         </div>
       </Card>
@@ -212,7 +221,7 @@ const Package = ({
   amount: 150 | 1650 | 5450 | 11200 | 19400 | 90000;
   bonus: number;
   price: number;
-  handlePurchaseClick?: any;
+  // handlePurchaseClick?: any;
 }) => {
   const { t } = useTranslation();
   const router = useRouter();
@@ -227,9 +236,11 @@ const Package = ({
         className="relative aspect-square h-[23rem] w-[23rem] cursor-not-allowed rounded-xl tabular-nums duration-200 hover:shadow-lg md:h-64 md:w-64"
         role="button"
         onClick={
+          () => console.log("Handle crystal purchase or redirect")
+          /*
           handlePurchaseClick
             ? (e) => handlePurchaseClick(e)
-            : () => router.push("/sign-in")
+            : () => router.push("/sign-in")*/
         }
         aria-disabled={true}
       >
