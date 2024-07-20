@@ -19,7 +19,7 @@ type PaymentDialogState = {
   closeDialog: () => void;
   setClientSecret: (clientSecret: string) => void;
 };
-
+/*
 export const usePaymentDialog = create<PaymentDialogState>()((set) => ({
   isOpen: false,
   clientSecret: "",
@@ -28,3 +28,4 @@ export const usePaymentDialog = create<PaymentDialogState>()((set) => ({
   setClientSecret: (clientSecret: string) =>
     set((state) => ({ ...state, clientSecret })),
 }));
+*/

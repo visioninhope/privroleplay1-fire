@@ -74,7 +74,7 @@ export const MobilePackageWrapper = ({
   bonus: number;
   price: number;
 }) => {
-  const buyCrystal = useAction(api.stripe.pay);
+  // const buyCrystal = useAction(api.stripe.pay);
   const currentUser = useCurrentUser();
   const { setClientSecret, openDialog } = usePaymentDialog();
 

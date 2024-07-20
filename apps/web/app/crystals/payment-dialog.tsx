@@ -1,3 +1,4 @@
+/*
 import React, { useEffect } from "react";
 import {
   Dialog,
@@ -53,3 +54,4 @@ const CrystalDialog: React.FC = () => {
 };
 
 export default CrystalDialog;
+*/

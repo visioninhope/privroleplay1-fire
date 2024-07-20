@@ -48,20 +48,23 @@ import {
 import Link from "next/link";
 import useImageModelData from "../lib/hooks/use-image-model-data";
 import { packages } from "./packages";
+/*
 import { usePaymentDialog } from "../lib/hooks/use-crystal-dialog";
 import useSubscription from "../lib/hooks/use-subscription";
-
+*/
 const PlusPlan = () => {
   const { t } = useTranslation();
-  const subscribe = useAction(api.stripe.subscribe);
-  const unsubscribe = useMutation(api.payments.unsubscribe);
-  const uncancel = useMutation(api.payments.uncancel);
+  // const subscribe = useAction(api.stripe.subscribe);
+  // const unsubscribe = useMutation(api.payments.unsubscribe);
+  // const uncancel = useMutation(api.payments.uncancel);
   const currentUser = useCurrentUser();
   const subscription = useSubscription();
   const { setClientSecret, openDialog } = usePaymentDialog();
 
   async function handlePurchaseClick(event: any) {
     event.preventDefault();
+    console.log(`Placeholder for handlePurchaseCLick`);
+    /*
     const promise = subscription?.cancelsAt
       ? uncancel({})
       : subscribe({
@@ -82,6 +85,7 @@ const PlusPlan = () => {
           : t("Unexpected error occurred");
       },
     });
+    */
   }
 
   return (
@@ -271,13 +275,15 @@ const PackageWrapper = ({
   bonus: number;
   price: number;
 }) => {
-  const buyCrystal = useAction(api.stripe.pay);
+  // const buyCrystal = useAction(api.stripe.pay);
   const currentUser = useCurrentUser();
   const { t } = useTranslation();
   const { setClientSecret, openDialog } = usePaymentDialog();
 
   async function handlePurchaseClick(event: any) {
     event.preventDefault();
+    console.log('Place holder for handlePurchaseClick() ');
+    /*
     const promise = buyCrystal({
       numCrystals: amount,
       userId: currentUser._id,
@@ -295,6 +301,7 @@ const PackageWrapper = ({
           : t("Unexpected error occurred");
       },
     });
+    */
   }
 
   return (
