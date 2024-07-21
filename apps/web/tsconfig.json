@@ -3,7 +3,8 @@
   "compilerOptions": {
     "plugins": [
       {
-        "name": "next"
+        "name": "next",
+        "typeRoots": ["./node_modules/@types", "./apps/web/types"]
       }
     ],
     "declaration": false
@@ -14,7 +15,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "convex/auth.config.js"
+    "convex/auth.config.js",
+    "apps/web/types/**/*.d.ts"
   ],
   "exclude": ["node_modules"]
 }
