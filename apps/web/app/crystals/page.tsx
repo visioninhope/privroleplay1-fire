@@ -215,7 +215,7 @@ const Package = ({
   amount,
   bonus,
   price,
-  handlePurchaseClick,
+  // handlePurchaseClick,
 }: {
   src: string;
   amount: 150 | 1650 | 5450 | 11200 | 19400 | 90000;
@@ -289,7 +289,7 @@ const PackageWrapper = ({
   // const buyCrystal = useAction(api.stripe.pay);
   const currentUser = useCurrentUser();
   const { t } = useTranslation();
-  const { setClientSecret, openDialog } = usePaymentDialog();
+  // const { setClientSecret, openDialog } = usePaymentDialog();
 
   async function handlePurchaseClick(event: any) {
     event.preventDefault();
@@ -322,7 +322,7 @@ const PackageWrapper = ({
         amount={amount}
         bonus={bonus}
         price={price}
-        handlePurchaseClick={handlePurchaseClick}
+        // handlePurchaseClick={handlePurchaseClick}
       />
     </div>
   );
