@@ -136,6 +136,69 @@ declare module '@thetalabs/theta-js' {
     hexToBytes(hex: string): number[];
     bytesToHex(bytes: number[]): string;
   };
+
+  export class Wallet {
+  static createRandom(): Wallet;
+  static fromMnemonic(mnemonic: string): Wallet;
+  mnemonic: { phrase: string };
+  privateKey: string;
+  address: string;
+  }
+
+  export class Theta {
+    static signTransaction(unsignedTx: any, privateKey: string): Promise<string>;
+  }
+
+  export namespace transactions {
+    class SendTransaction {
+      constructor(from: string, to: string, amount: string, txType: TxType);
+    }
+  }
+  export class BigNumber {
+    constructor(value: string | number | BigNumber);
+    toString(): string;
+    toHexString(): string;
+  }
+
+  export namespace utils {
+    function hexToBytes(hex: string): number[];
+    function bytesToHex(bytes: number[]): string;
+    function isValidAddress(address: string): boolean;
+  }
+
+  export namespace crypto {
+    function sha3(value: string | number[]): string;
+    function sign(hash: string, privateKey: string): string;
+    function recover(hash: string, signature: string): string;
+  }
+  export interface UnsignedTx {
+    // Add properties based on your specific transaction structure
+  }
+
+  export interface SignedTx {
+    // Add properties based on your specific signed transaction structure
+  }
+
+  export class TxSigner {
+    static signAndSerializeTx(chainID: string, tx: UnsignedTx, privateKey: string): string;
+    static signTx(chainID: string, tx: UnsignedTx, privateKey: string): SignedTx;
+    static serializeTx(tx: SignedTx): string;
+  }
+
+  export interface ThetaWalletProvider {
+    request(args: { method: string; params?: any[] }): Promise<any>;
+  }
+
+  export class Web3Adapter {
+    constructor(provider: ThetaWalletProvider);
+    eth: {
+      getAccounts(): Promise<string[]>;
+      sendTransaction(tx: any): Promise<string>;
+      sign(address: string, message: string): Promise<string>;
+    };
+  }
+
+  export function createThetaWalletProvider(): ThetaWalletProvider;
 }
 
 declare module '@thetalabs/theta-js/src/constants' {
