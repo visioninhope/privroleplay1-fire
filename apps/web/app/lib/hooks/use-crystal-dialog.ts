@@ -11,7 +11,7 @@ export const useCrystalDialog = create<CrystalDialogState>()((set) => ({
   openDialog: () => set({ isOpen: true }),
   closeDialog: () => set({ isOpen: false }),
 }));
-
+/*
 type PaymentDialogState = {
   isOpen: boolean;
   clientSecret: string;
@@ -19,6 +19,7 @@ type PaymentDialogState = {
   closeDialog: () => void;
   setClientSecret: (clientSecret: string) => void;
 };
+*/
 /*
 export const usePaymentDialog = create<PaymentDialogState>()((set) => ({
   isOpen: false,
