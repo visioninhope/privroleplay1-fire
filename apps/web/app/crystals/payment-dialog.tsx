@@ -1,3 +1,46 @@
+import React, { useState } from 'react';
+import { Dialog, DialogContent } from "@repo/ui/src/components/dialog";
+import { useCrystalDialog } from "../lib/hooks/use-crystal-dialog";
+import { ThetaService } from '../../services/ThetaService';
+import useCurrentUser from "../lib/hooks/use-current-user";
+
+const CrystalDialog: React.FC = () => {
+  const { isOpen, closeDialog, amount } = useCrystalDialog();
+  const currentUser = useCurrentUser();
+  const [txHash, setTxHash] = useState('');
+
+  const handlePayment = async () => {
+    try {
+      const sequence = 0; // You need to get the correct sequence number for the user
+      const tx = await ThetaService.createSendTransaction(
+        currentUser.address,
+        'YOUR_RECEIVER_ADDRESS',
+        amount.toString(),
+        'TFUEL',
+        sequence
+      );
+      const signedTx = await ThetaService.signTransaction(tx, currentUser.privateKey);
+      // Send the signedTx to your backend or directly to the Theta network
+      // Update txHash state with the result
+      setTxHash('TRANSACTION_HASH');
+    } catch (error) {
+      console.error('Payment failed:', error);
+    }
+  };
+
+  return (
+    <Dialog open={isOpen} onClose={closeDialog}>
+      <DialogContent>
+        <h2>Theta Network Payment</h2>
+        <p>Amount: {amount} TFUEL</p>
+        <button onClick={handlePayment}>Pay with Theta</button>
+        {txHash && <p>Transaction Hash: {txHash}</p>}
+      </DialogContent>
+    </Dialog>
+  );
+};
+
+export default CrystalDialog;
 /*
 import React, { useEffect } from "react";
 import {
