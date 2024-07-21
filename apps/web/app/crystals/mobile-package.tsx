@@ -13,7 +13,7 @@ import { useTranslation } from "react-i18next";
 import { api } from "../../convex/_generated/api";
 import useCurrentUser from "../lib/hooks/use-current-user";
 import { toast } from "sonner";
-import { usePaymentDialog } from "../lib/hooks/use-crystal-dialog";
+// import { usePaymentDialog } from "../lib/hooks/use-crystal-dialog";
 
 export const MobilePackage = ({
   src,
@@ -76,11 +76,12 @@ export const MobilePackageWrapper = ({
 }) => {
   // const buyCrystal = useAction(api.stripe.pay);
   const currentUser = useCurrentUser();
-  const { setClientSecret, openDialog } = usePaymentDialog();
+  // const { setClientSecret, openDialog } = usePaymentDialog();
 
   async function handlePurchaseClick(event: any) {
     event.preventDefault();
-    const promise = buyCrystal({
+    console.log("Placeholder for mobile handlePurchaseClick");
+    /*const promise = buyCrystal({
       numCrystals: amount,
       userId: currentUser._id,
     });
@@ -96,7 +97,7 @@ export const MobilePackageWrapper = ({
           ? (error.data as { message: string }).message
           : "Unexpected error occurred";
       },
-    });
+    });*/
   }
 
   return (
