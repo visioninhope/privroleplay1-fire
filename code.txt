@@ -1,0 +1,20 @@
+$repoPath = "C:\Users\swara\OneDrive\Desktop\Theta Networks\privroleplay1"
+$excludedDirs = @("node_modules", ".git", ".next", ".npm", "pnpm")
+
+function Get-FilesRecursively($path) {
+    $items = Get-ChildItem -Path $path -Force
+
+    foreach ($item in $items) {
+        if ($item.PSIsContainer) {
+            if ($excludedDirs -notcontains $item.Name) {
+                Get-FilesRecursively $item.FullName
+            }
+        } else {
+            if ($item.Extension -in @('.ico')) {
+                $item.FullName.Substring($repoPath.Length + 1)
+            }
+        }
+    }
+}
+
+Get-FilesRecursively $repoPath
