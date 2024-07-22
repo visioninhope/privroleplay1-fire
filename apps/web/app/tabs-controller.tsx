@@ -8,6 +8,7 @@ import { useTranslation } from "react-i18next";
 import useMediaQuery from "@repo/ui/src/hooks/use-media-query";
 import { Crystal } from "@repo/ui/src/components/icons";
 import { initializeTranslationStore } from "./lib/hooks/use-machine-translation";
+import { Wallet } from 'lucide-react';
 
 function TabsController() {
   const { isMobile } = useMediaQuery();
@@ -78,6 +79,15 @@ function TabsController() {
           >
             <Crystal className="h-5 w-5 p-0.5 lg:p-1" />
             {t("Crystals")}
+          </TabsTrigger>
+        </Link>
+        <Link href="/wallet">
+          <TabsTrigger
+            className="hidden w-full flex-col items-center gap-0.5 rounded-full lg:flex lg:flex-row lg:items-start"
+            value="/wallet"
+          >
+            <Wallet className="h-5 w-5 p-0.5 lg:p-1" />
+            {t("Wallet")}
           </TabsTrigger>
         </Link>
         <Link href="/discord">
