@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://github.com/codico-bit/privroleplay1">
-<img src="https://github.com/Open-Roleplay-AI/.github/blob/main/github-banner.png?raw=true" alt="Logo">
+<img src="" alt="Logo">
 </a>
 
   <h3 align="center">Theta Space</h3>
