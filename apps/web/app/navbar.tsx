@@ -13,7 +13,7 @@ import { useTranslation } from "react-i18next";
 import useCurrentUser from "./lib/hooks/use-current-user";
 import { Search } from "@repo/ui/src/components/icons";
 
-function NavBar({}: {}) {
+export default function NavBar({}: {}) {
   const scrolled = useScroll(50);
   const { isAuthenticated } = useConvexAuth();
   const { t } = useTranslation();
