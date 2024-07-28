@@ -15,7 +15,7 @@ export default function AddToMobileFirefoxIos(props: Props) {
     <div className="fixed bottom-0 left-0 right-0 z-50 h-[70%] px-4 pb-12 text-foreground">
       <div className="relative flex h-full flex-col items-center justify-around rounded-xl border bg-background p-4 text-center">
         <p className="text-lg text-muted-foreground">
-          Install ORP app to your home screen!
+          Install ThetaSpace app to your home screen!
         </p>
         <div className="flex items-center gap-2 text-lg">
           <p>Click the</p>

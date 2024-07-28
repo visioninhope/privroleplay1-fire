@@ -85,7 +85,7 @@ const PlusPlan = () => {
   }
 
   return (
-    <Tooltip content={`Subscribe ORP+`} desktopOnly>
+    <Tooltip content={`Subscribe ThetaSpace+`} desktopOnly>
       <Card
         className="relative rounded-xl tabular-nums duration-200 hover:shadow-lg"
         role="button"
@@ -96,7 +96,7 @@ const PlusPlan = () => {
         }
       >
         <Image
-          src={"/shop/orp+.jpg"}
+          src={"/shop/thetspace+.jpg"}
           width={256}
           height={368}
           alt={"image for pricing"}
@@ -106,7 +106,7 @@ const PlusPlan = () => {
         <div className="flex flex-col gap-1 pt-[50%] lg:pt-[30%] xl:pt-[100%]">
           <CardHeader className="flex items-center justify-center py-1">
             <CardTitle className="z-10 font-display text-xl text-white">
-              ORP+
+              ThetaSpace+
             </CardTitle>
             <CardDescription className="z-10 text-gray-400">
               9.99$

@@ -16,7 +16,7 @@ export default function AddToMobileChromeIos(props: Props) {
       <div className="relative flex h-full flex-col items-center justify-around rounded-xl border bg-background p-4 text-center">
         <ArrowUp className="absolute -top-[40px] right-0 z-10 animate-bounce text-4xl text-blue-500" />
         <p className="text-lg text-muted-foreground">
-          Install ORP app to your home screen!
+          Install ThetaSpace app to your home screen!
         </p>
         <div className="flex items-center gap-2 text-lg">
           <p>Click the</p>
