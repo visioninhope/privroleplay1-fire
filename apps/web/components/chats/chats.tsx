@@ -1,3 +1,4 @@
+"use client";
 import { Button, Card, CardHeader, CardTitle } from "@repo/ui/src/components";
 import {
   AvatarImage,
@@ -8,7 +9,7 @@ import { api } from "../../convex/_generated/api";
 import { formatDistanceToNow } from "date-fns";
 import { Id } from "../../convex/_generated/dataModel";
 import Link from "next/link";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useInView } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import {
@@ -73,7 +74,6 @@ export const Chat = ({
     </Link>
   );
 };
-
 export default function Chats() {
   const { t } = useTranslation();
   const { isAuthenticated } = useConvexAuth();
@@ -89,7 +89,8 @@ export default function Chats() {
     if (results?.length > 9 && inView) {
       loadMore(10);
     }
-  }, [inView, loadMore]);
+  }, [inView, loadMore, results?.length]);
+
   return (
     <Card className="h-full w-full overflow-scroll rounded-b-none border-transparent shadow-none scrollbar-hide lg:border-border lg:shadow-xl">
       <CardHeader>
@@ -98,7 +99,7 @@ export default function Chats() {
       <ul>
         {results?.length ? (
           results.map((chat) => (
-            <ErrorBoundary errorComponent={() => undefined}>
+            <ErrorBoundary key={chat._id} errorComponent={() => undefined}>
               {isAuthenticated && (
                 <Chat
                   name={chat.chatName as string}

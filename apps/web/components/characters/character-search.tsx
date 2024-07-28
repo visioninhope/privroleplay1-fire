@@ -1,3 +1,4 @@
+"use client"
 import { Button, Card, CardHeader, CardTitle } from "@repo/ui/src/components";
 import {
   AvatarImage,

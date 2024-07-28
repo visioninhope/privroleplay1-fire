@@ -1,3 +1,4 @@
+"use client"
 import Spinner from "@repo/ui/src/components/spinner";
 import CharacterCardPlaceholder from "../../components/cards/character-card-placeholder";
 import ImageCard from "./image-card";

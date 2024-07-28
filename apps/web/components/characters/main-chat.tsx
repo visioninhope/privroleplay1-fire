@@ -1,3 +1,4 @@
+"use client"
 import { api } from "../../convex/_generated/api";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";

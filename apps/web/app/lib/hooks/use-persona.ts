@@ -1,3 +1,4 @@
+"use client"
 import { api } from "../../../convex/_generated/api";
 import { useStableQuery } from "./use-stable-query";
 

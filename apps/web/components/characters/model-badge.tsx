@@ -1,3 +1,4 @@
+"use client"
 import { Badge } from "@repo/ui/src/components/badge";
 import { FilterX, Package } from "lucide-react";
 import { Crystal } from "@repo/ui/src/components/icons";

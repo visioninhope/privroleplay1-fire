@@ -1,4 +1,5 @@
 // in hooks/useStableQuery.ts
+"use client"
 import { usePaginatedQuery, useQuery } from "convex/react";
 import { useRef } from "react";
 
