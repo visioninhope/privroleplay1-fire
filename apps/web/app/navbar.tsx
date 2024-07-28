@@ -13,13 +13,12 @@ import { useTranslation } from "react-i18next";
 import useCurrentUser from "./lib/hooks/use-current-user";
 import { Search } from "@repo/ui/src/components/icons";
 
-export default function NavBar({}: {}) {
+function NavBar({}: {}) {
   const scrolled = useScroll(50);
   const { isAuthenticated } = useConvexAuth();
   const { t } = useTranslation();
   const currentUser = useCurrentUser();
   const isPlus = currentUser?.subscriptionTier === "plus";
-
   return (
     <>
       <div
@@ -32,30 +31,15 @@ export default function NavBar({}: {}) {
             <Link href="/">
               <TextLogo isPlus={isPlus} />
             </Link>
-            {isAuthenticated ? (
-              <>
-                {!isPlus && (
-                  <Link
-                    href="/crystals"
-                    className="flex items-center justify-center"
-                  >
-                    <Badge className="w-fit font-display">
-                      {t("Get ThetaSpace+")}
-                    </Badge>
-                  </Link>
-                )}
-              </>
-            ) : (
-              <Tooltip content="Star ThetaSpace on GitHub" desktopOnly>
-                <Link
-                  className="hidden items-center gap-2 text-base text-muted-foreground hover:opacity-50 lg:flex"
-                  href="/github"
-                >
-                  <Badge className="font-default">
-                    <span>{t("alpha")}</span>
-                  </Badge>
-                </Link>
-              </Tooltip>
+            {isAuthenticated && !isPlus && (
+              <Link
+                href="/crystals"
+                className="flex items-center justify-center"
+              >
+                <Badge className="w-fit font-display">
+                  {t("Get ThetaSpace+")}
+                </Badge>
+              </Link>
             )}
           </div>
           <div className="flex items-center gap-2">
@@ -78,7 +62,6 @@ export default function NavBar({}: {}) {
                 </Button>
               </Link>
             )}
-
             <UserDropdown />
             <SignedOut>
               <Link href="/sign-in">
