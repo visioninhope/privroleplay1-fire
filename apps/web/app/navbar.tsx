@@ -40,7 +40,7 @@ export default function NavBar({}: {}) {
                     className="flex items-center justify-center"
                   >
                     <Badge className="w-fit font-display">
-                      {t("Get ORP+")}
+                      {t("Get ThetaSpace+")}
                     </Badge>
                   </Link>
                 )}
