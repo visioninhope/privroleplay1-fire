@@ -16,21 +16,33 @@ const Models = () => {
     {},
     { initialNumItems: 10 },
   );
+  console.log("Results:", results);
+  console.log("Status:", status);
+
   const allCharacters = results || [];
   const characters = allCharacters.filter(
     (character) => character.name && character.cardImageUrl,
   );
+  console.log("Filtered characters:", characters);
+
   const ref = useRef(null);
   const inView = useInView(ref);
+  console.log("In view:", inView);
+
   const me = useCurrentUser();
+  console.log("Current user:", me);
+
   const [isSignInModalOpen, setIsSignInModalOpen] = useState(false);
+  console.log("Is sign-in modal open:", isSignInModalOpen);
 
   useEffect(() => {
     if (inView) {
       if (!me?.name) {
         setIsSignInModalOpen(true);
+        console.log("Sign-in modal opened because user is not signed in.");
       } else {
         loadMore(10);
+        console.log("Loading more characters.");
       }
     }
   }, [inView, loadMore]);
