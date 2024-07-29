@@ -294,13 +294,14 @@ export const listBackend = query({
     return await query.order("desc").take(300);
   },
 });
-
 export const listModels = query({
   args: {
     paginationOpts: paginationOptsValidator,
     model: v.optional(v.string()),
   },
   handler: async (ctx, args) => {
+    console.log("Received args:", args);
+
     let query = ctx.db
       .query("characters")
       .withIndex("byScore")
@@ -309,11 +310,18 @@ export const listModels = query({
       .filter((q) => q.eq(q.field("isBlacklisted"), false))
       .filter((q) => q.neq(q.field("isArchived"), true))
       .filter((q) => q.neq(q.field("visibility"), "private"));
+    
+    console.log("Initial query:", query);
+
     if (args.model) {
       query = query.filter((q) => q.eq(q.field("model"), args.model));
+      console.log("Query after model filter:", query);
     }
 
-    return await query.order("desc").paginate(args.paginationOpts);
+    const result = await query.order("desc").paginate(args.paginationOpts);
+    console.log("Query result:", result);
+
+    return result;
   },
 });
 
