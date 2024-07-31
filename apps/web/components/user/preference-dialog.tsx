@@ -47,12 +47,12 @@ const PreferenceDialog = () => {
         </Button>
         <AlertDialogHeader className="text-left">
           <AlertDialogTitle className="flex items-center justify-center gap-1 text-3xl">
-            {t("ThetaSpaces1")}
+            {t("ThetaSpaces")}
           </AlertDialogTitle>
           <div className="flex w-full flex-col items-center justify-center">
             <AlertDialogDescription className="flex flex-col items-center justify-center gap-4">
               <div className="flex text-center text-lg">
-                {t("ThetaSpaces1 will be sunsetting on August 1st. ")}
+                {t("Hang Tight! We are changing our back-end, avoid making transactions at the moment!")}
               </div>
             </AlertDialogDescription>
           </div>

@@ -6,10 +6,10 @@
   <h3 align="center">Theta Space</h3>
 
   <p align="center">
-    The open-source character.ai alternative.
+    Theta Space - 
     <br />
     <br />
-    <a href="https://discord.gg/bM5zzMEtdW">Discord</a>
+    <a href="https://discord.gg/9BxwbfjXZC">Discord</a>
     ·
     <a href="https://www.thetaspace.fun">Website</a>
     ·
