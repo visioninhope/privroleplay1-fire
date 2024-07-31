@@ -16,7 +16,7 @@ export default function AddToMobileChrome(props: Props) {
       <ArrowUp className="absolute right-[10px] top-[10px] z-10 animate-bounce text-4xl text-blue-500" />
       <div className="relative flex h-full flex-col items-center justify-around rounded-xl border bg-background p-4 text-center">
         <p className="text-lg text-muted-foreground">
-          Install ThetaSpace app to your home screen!
+          Install Theta Space app to your home screen!
         </p>
         <div className="flex items-center gap-2 text-lg">
           <p>Click the</p>

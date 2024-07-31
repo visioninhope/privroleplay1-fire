@@ -1,5 +1,5 @@
 {
-  "name": "ThetaSpace",
+  "name": "Theta Space",
   "private": true,
   "scripts": {
     "build": "turbo build",

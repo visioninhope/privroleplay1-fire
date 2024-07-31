@@ -85,7 +85,7 @@ const PlusPlan = () => {
   }
 
   return (
-    <Tooltip content={`Subscribe ThetaSpace+`} desktopOnly>
+    <Tooltip content={`Subscribe Theta Space+`} desktopOnly>
       <Card
         className="relative rounded-xl tabular-nums duration-200 hover:shadow-lg"
         role="button"
@@ -106,7 +106,7 @@ const PlusPlan = () => {
         <div className="flex flex-col gap-1 pt-[50%] lg:pt-[30%] xl:pt-[100%]">
           <CardHeader className="flex items-center justify-center py-1">
             <CardTitle className="z-10 font-display text-xl text-white">
-              ThetaSpace+
+              Theta Space+
             </CardTitle>
             <CardDescription className="z-10 text-gray-400">
               9.99$
@@ -380,7 +380,7 @@ export default function Page() {
           {t("Crystal Top-Up")}
           <InfoTooltip
             content={t(
-              "Crystal is an universal currency for calling AI features in ThetaSpace.",
+              "Crystal is an universal currency for calling AI features in Theta Space.",
             )}
           />
         </h2>

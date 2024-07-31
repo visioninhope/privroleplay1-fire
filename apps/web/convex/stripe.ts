@@ -92,7 +92,7 @@ export const subscribe = action({
     });
     const paymentId: string = await ctx.runMutation(internal.payments.create, {
       numCrystals: 200,
-      productName: "ThetaSpace+",
+      productName: "Theta Space+",
       userId,
     });
     const user = await ctx.runQuery(internal.users.getUserInternal, {
@@ -108,7 +108,7 @@ export const subscribe = action({
               unit_amount_decimal: "999",
               tax_behavior: "exclusive",
               product_data: {
-                name: `ThetaSpace+`,
+                name: `Theta Space+`,
                 description:
                   "Double memory, Earn more crystals, Unlock exclusive features",
               },

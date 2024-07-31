@@ -303,7 +303,7 @@ export const imagine = mutation({
         ? `1 ${character?.genderTag}, masterpiece, ${message?.text}`
         : (message?.text as string),
       referenceImage: character?.cardImageUrl,
-      model: "daun-io/openroleplay.ai-animagine-v3",
+      model: "lucataco/sdxl-lightning-4step",
       isPlus: user?.subscriptionTier === "plus",
     });
 
