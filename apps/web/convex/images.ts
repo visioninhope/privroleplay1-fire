@@ -14,7 +14,6 @@ export const generate = mutation({
       v.literal("dall-e-3"),
       v.literal("charlesmccarthy/animagine-xl"),
       v.literal("asiryan/juggernaut-xl-v7"),
-      v.literal("daun-io/openroleplay.ai-animagine-v3"),
       v.literal("pagebrain/dreamshaper-v8"),
       v.literal("asiryan/meina-mix-v11"),
       v.literal("asiryan/blue-pencil-xl-v2"),
@@ -279,14 +278,14 @@ export const imagine = mutation({
       message?.characterId as Id<"characters">,
     );
     const crystalPrice = getCrystalPrice(
-      "daun-io/openroleplay.ai-animagine-v3",
+      "lucataco/sdxl-lightning-4step",
     );
     if (user?.crystals < crystalPrice) {
       throw new ConvexError("Not enough crystals.");
     }
     const image = await ctx.db.insert("images", {
       prompt: message?.text as string,
-      model: "daun-io/openroleplay.ai-animagine-v3",
+      model: "lucataco/sdxl-lightning-4step",
       imageUrl: "",
       referenceImage: character?.cardImageUrl,
       creatorId: user._id,

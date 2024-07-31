@@ -308,10 +308,6 @@ export const generateByPrompt = internalAction(
           modelHash =
             "charlesmccarthy/animagine-xl:d6f9644c586556cf0e09d136f7198becf2da31d1955160b2308545e21234ffa9";
           break;
-        case "daun-io/openroleplay.ai-animagine-v3":
-          modelHash =
-            "daun-io/openroleplay.ai-animagine-v3:559becf07bc8ce089dc37afcdaf8f83bf1038ffcee22730ec5d1b42507b5465c";
-          break;
         case "asiryan/juggernaut-xl-v7":
           modelHash =
             "asiryan/juggernaut-xl-v7:6a52feace43ce1f6bbc2cdabfc68423cb2319d7444a1a1dae529c5e88b976382";
@@ -332,9 +328,6 @@ export const generateByPrompt = internalAction(
           modelHash =
             "lucataco/sdxl-lightning-4step:727e49a643e999d602a896c774a0658ffefea21465756a6ce24b7ea4165eba6a";
           break;
-        default:
-          modelHash =
-            "daun-io/openroleplay.ai-animagine-v3:559becf07bc8ce089dc37afcdaf8f83bf1038ffcee22730ec5d1b42507b5465c";
       }
 
       const dimensions = {

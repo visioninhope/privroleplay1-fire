@@ -48,7 +48,6 @@ const formSchema = z.object({
     z.literal("asiryan/meina-mix-v11"),
     z.literal("asiryan/blue-pencil-xl-v2"),
     z.literal("charlesmccarthy/animagine-xl"),
-    z.literal("daun-io/openroleplay.ai-animagine-v3"),
     z.literal("asiryan/juggernaut-xl-v7"),
     z.literal("dall-e-3"),
     z.literal("pagebrain/dreamshaper-v8"),

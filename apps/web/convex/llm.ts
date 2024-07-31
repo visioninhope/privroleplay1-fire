@@ -73,7 +73,7 @@ const initializeModel = async (character: any, userId: string, ctx: any) => {
     apiKey,
     defaultHeaders: {
       "HTTP-Referer": "https://www.thetaspace.fun",
-      "X-Title": "ThetaSpaces1",
+      "X-Title": "ThetaSpace",
     },
   });
   let updatedModel = model;
@@ -430,7 +430,7 @@ export const generateFollowups = internalAction({
         apiKey,
         defaultHeaders: {
           "HTTP-Referer": "https://www.thetaspace.fun",
-          "X-Title": "ThetaSpaces1",
+          "X-Title": "ThetaSpace",
         },
       });
       try {

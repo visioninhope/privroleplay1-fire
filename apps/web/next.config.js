@@ -59,17 +59,6 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/star",
-        destination:
-          "https://github.com/open-roleplay-ai/openroleplay.ai/stargazers",
-        permanent: true,
-      },
-      {
-        source: "/github",
-        destination: "https://github.com/open-roleplay-ai/openroleplay.ai",
-        permanent: true,
-      },
-      {
         source: "/discord",
         destination: "https://discord.gg/bM5zzMEtdW",
         permanent: true,
